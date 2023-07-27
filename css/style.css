@@ -167,14 +167,14 @@ h2.about_ttl{
 
 p.about_text-main{
     width: 50%;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 30px;
     color: gray;
-        padding-left: 21%;
+    padding-left: 18%;
 }
 
 .about_logo{
-    width: 62%;
+    width: 60%;
 }
 
 .about_logo-in{
@@ -215,6 +215,7 @@ display: flex;
     position: relative;
 }
 
+
 .service_main-right {
     width: 50%;
 }
@@ -236,8 +237,17 @@ display: flex;
 }
 
 .service_main-img{
-    width: 30%;
-    padding:30px;
+    width: 35%;
+    position: absolute;
+    bottom: 54%;
+}
+
+.service_main-img-right {
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0, -50%);
 }
 
 .service_main-text1-1 {
@@ -338,7 +348,6 @@ h2.blog_ttl {
     font-size: 15px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .blog_main-minitext-cat1,.blog_main-minitext-cat2 {
@@ -459,6 +468,10 @@ position: relative;
     .recruit_text {
         font-size: 20px;
     }
+        .blog_main-minitext-cat1,
+        .blog_main-minitext-cat2{
+            font-size: 12px;
+        }
 }
 @media (max-width: 900px){
     .news_item{
@@ -490,7 +503,6 @@ position: relative;
         .blog_main-minitext-cat1,.blog_main-minitext-cat2{
         font-size: 13px;
         margin-top: 3px;}
-
         .blog_main-cont2 {
         padding: 10px 10px;
         }
