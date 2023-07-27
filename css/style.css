@@ -52,10 +52,7 @@ main{
 }
 
 div.ttl{
-        position: relative;
-            top: 0px;
-            left: 0px;
-            display: flex
+    position: relative;
 }
 
 h2.ttl_logo {
@@ -67,10 +64,10 @@ h2.ttl_logo {
 }
 
 div.ttl_logo1{
-position: absolute;
-        top: 30%;
-        left: 26%;
-        font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    font-weight: bold;
 }
 
 p.ttl_logo2{
@@ -81,9 +78,9 @@ p.ttl_logo2{
 
 p.ttl_logo3{
     font-size: 15px;
-color: gray;
-line-height: 25px;
-font-weight: lighter;
+    color: gray;
+    line-height: 25px;
+    font-weight: lighter;
 }
 
 div.ttl_img{
@@ -184,7 +181,6 @@ p.about_text-main{
 div.service {
     width: 60%;
     margin: 80px auto 0;
-
 }
 
 p.service_menu {
@@ -259,11 +255,11 @@ display: flex;
 
 .service_main-text1-2{
     position: absolute;
-        top: 50%;
-        left:0;
-        font-size: 18px;
-        padding: 30px;
-        line-height: 1.6;
+    top: 50%;
+    left:0;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 1.6;
 }
 
 .service_main-text2-1,.service_main-text3-1{
@@ -275,24 +271,24 @@ display: flex;
 }
 
 .service_main-text2-2,.service_main-text3-2 {
-        position: absolute;
-            top: 40%;
-            left: 40%;
-            font-size: 15px;
-            padding-right: 10px;
-            line-height: 1.6;
-        overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 15px;
+    padding-right: 10px;
+    line-height: 1.6;
+    overflow: hidden;
 }
 
 .blog{
-        background-color: rgb(238, 238, 238)
-    }
+    background-color: rgb(238, 238, 238)
+}
 
 .blog_frame{
         width: 60%;
         margin: 60px auto 0;
         padding: 20px 0 80px;
-    }
+}
 
 h2.blog_ttl {
     margin: 10px 0;
@@ -341,7 +337,6 @@ h2.blog_ttl {
     margin-bottom: 30px;
     font-weight: bold;
     color: gray;
-
 }
 
 .blog_main-minitext {
@@ -468,20 +463,20 @@ position: relative;
     .recruit_text {
         font-size: 20px;
     }
-        .blog_main-minitext-cat1,
-        .blog_main-minitext-cat2{
-            font-size: 12px;
-        }
+    .blog_main-minitext-cat1,
+    .blog_main-minitext-cat2{
+        font-size: 12px;
+    }
 }
 @media (max-width: 900px){
     .news_item{
         font-size: 10px;
         padding: 5px 0;
     }
-        .blog_main-cont{
-            width: 45%;
-            margin: 10px 0;
-        }
+    .blog_main-cont{
+        width: 45%;
+        margin: 10px 0;
+    }
 }
 @media (max-width: 768px) {
     .header_menu {
@@ -497,21 +492,25 @@ position: relative;
         position: absolute;
         top: 0%;
         left: 5%;
-        font-weight: bold;}
+        font-weight: bold;
+    }
     .header_item {
-            margin: 0 20px;}
-        .blog_main-minitext-cat1,.blog_main-minitext-cat2{
+        margin: 0 20px;
+    }
+    .blog_main-minitext-cat1,.blog_main-minitext-cat2{
         font-size: 13px;
-        margin-top: 3px;}
-        .blog_main-cont2 {
+        margin-top: 3px;
+    }
+    .blog_main-cont2 {
         padding: 10px 10px;
-        }
-        .blog_main-cont {
+    }
+    .blog_main-cont {
         width: 75%;
-        margin: 10px auto;}
-        .recruit_logo,.recruit_int {
+        margin: 10px auto;
+    }
+    .recruit_logo,.recruit_int {
         width: 100%;
-        }
+    }
 }
 
 div.footer{
@@ -521,13 +520,13 @@ div.footer{
 
 p.footer_text{
     position: relative;
-        font-size: 16px;
-        height: 70px;
-        line-height: 70px;
-        text-align: center;
-        font-size: 15px;
-        font-weight: 600;
-        margin-bottom: 20px;
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 p.footer_text::after {
@@ -553,11 +552,11 @@ a.footer_btn-text{
     border-radius: 50px;
     color: white;
     text-align: center;
-box-shadow: 0 6px 3px #4e0d31;
+    box-shadow: 0 6px 3px #4e0d31;
 }
 
 a.footer_btn-text::before{
-content: "";
+    content: "";
     position: absolute;
     top: 50%;
     left: 10%;
